@@ -2,6 +2,19 @@ import type { iSVG } from "@/types/svg";
 
 export const svgs: iSVG[] = [
   {
+    title: "re-up",
+    category: ["Software", "Design"],
+    route: {
+      light: "/library/re-up-light.svg",
+      dark: "/library/re-up-dark.svg",
+    },
+    wordmark: {
+      light: "/library/re-up.svg",
+      dark: "/library/re-up.svg",
+    },
+    url: "https://re-up.ph",
+  },
+  {
     title: "Google Classroom",
     category: ["Google", "Education"],
     route: "/library/google-classroom.svg",
